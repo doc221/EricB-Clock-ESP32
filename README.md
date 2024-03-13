@@ -36,9 +36,9 @@ P2 GND
 P3 GPIO26 -> sensor  
 ### Neopixel
 P1 +5V  
-P2 GPIO19  
+P2 GPIO19 -> DIN  
 P3 GND  
-### GL5537
+### Lightsensor GL5537
 P1 +5V  
 P2 GPIO36 with resistor 120 Ohm to ground  
 
