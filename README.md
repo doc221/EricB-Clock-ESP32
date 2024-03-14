@@ -11,35 +11,47 @@ Enjoy and feedback is welcome.
 ## Pinout explanation
 Here is what the pin assignment looks like.
 #### Rotary
-P1 GND  
-P2 +5V  
-P3 GPIO17 -> switch  
-P4 GPIO32 -> pinB (data)  
-P5 -> GPIO27 -> pinA (clock)  
+|Pinheader|Connection|To device|
+|-|-|-|
+|P1|GND|GND|
+|P2|+5V|+5V|
+|P3|GPIO17|switch|
+|P4|GPIO32|pinB (data)|
+|P5|GPIO27|pinA (clock)|
 #### MAX7219
-P1 +5V  
-P2 GND  
-P3 GPIO23 -> DIN (MOSI)  
-P4 GPIO16 -> CS  
-P5 GPIO18 -> CLK (SCK)  
+|Pinheader|Connection|To device|
+|-|-|-|
+P1|+5V|+5V|
+P2|GND|GND|
+P3|GPIO23|DIN (MOSI)|
+P4|GPIO16|CS|
+P5|GPIO18|CLK (SCK)|
 #### BME280
-P1 +5V  
-P2 GND  
-P3 GPIO22 -> SCL  
-P4 GPIO21 -> SDA  
+|Pinheader|Connection|To device|
+|-|-|-|
+P1|+5V|+5V|
+P2|GND|GND|
+P3|GPIO22|SCL  
+P4|GPIO21|SDA  
 #### Buzzer
-P1 GPIO5  
-P2 GND  
+|Pinheader|Connection|To device|
+|-|-|-|
+|P1|GPIO5|First pin|
+|P2|GND|Second pin|
 #### PIR
-P1 +5V  
-P2 GND  
-P3 GPIO26 -> sensor  
+|Pinheader|Connection|To device|
+|-|-|-|
+|P1|+5V|+5V|
+|P2|GND|GND|
+|P3|GPIO26|sensor|
 #### Neopixel
-P1 +5V  
-P2 GPIO19 -> DIN  
-P3 GND  
+|Pinheader|Connection|To device|
+|-|-|-|
+|P1|+5V|+5V|
+|P2|GPIO19|DIN|
+|P3|GND|GND|
 #### Lightsensor GL5537
-P1 +5V  
-P2 GPIO36 with resistor 120 Ohm to ground  
-
-
+|Pinheader|Connection|
+|-|-|
+|P1|+5V|
+|P2|GPIO36 with resistor 120 Ohm to ground|
